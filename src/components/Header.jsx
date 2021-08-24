@@ -20,7 +20,7 @@ class Header extends Component {
         <div className="container">
           <div className="row">
             <div className="col-md-4">
-              <h3>
+              <h3 Style="flex: right; text-align: center;">
                 <Link to="/" style={{ textDecoration: "None" }}>
                   FooBro <img
                   className="img img-thumbnail2"
@@ -29,6 +29,7 @@ class Header extends Component {
                 />
                 </Link>
               </h3>
+              <h6 Style="flex: right; text-align: center;">Search for your favorite movies and games by title, and albums by artist name and title</h6>
             </div>
             <div className="col-md-8">
               <form onSubmit={this.submitHandler}>
